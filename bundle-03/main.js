@@ -151,7 +151,7 @@ const gasolineCars = cars.filter((auto) => auto.type.toLowerCase() === 'benzina'
 
 const dieselCars = cars.filter((auto) => auto.type.toLowerCase() === 'diesel');
 
-const otherCars = cars.filter((auto) => auto.type.toLowerCase() !== 'benzina' && auto.type !== 'diesel');
+const otherCars = cars.filter((auto) => auto.type.toLowerCase() !== 'benzina' && auto.type.toLowerCase() !== 'diesel');
 
 console.log('Auto a benzina');
 console.log('*******************************');
